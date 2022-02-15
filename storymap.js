@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@hrosenskjold 
-Mappy
-/
-Leaflet-active-area
-Public
-Code
-Issues
-3
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-Leaflet-active-area/src/leaflet.activearea.js /
-@rnixx
-rnixx Reinclude bool arg when calling map.getCenter in L.GridLayer._update
-Latest commit 202f641 on 16 Nov 2021
- History
- 10 contributors
-@rnixx@helbling@paulgreg@vripoche@MiroslavPetrik@mcellier@flemenach@Kendaros@dopeters@zverev
-458 lines (365 sloc)  15.6 KB
-   
 (function(previousMethods){
 if (typeof previousMethods === 'undefined') {
     // Defining previously that object allows you to use that plugin even if you have overridden L.map
@@ -487,16 +456,3 @@ L.Popup.include({
 });
 
 })(window.leafletActiveAreaPreviousMethods);
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
